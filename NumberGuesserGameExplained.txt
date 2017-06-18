@@ -1,0 +1,25 @@
+-> Secret number is set at the start of the program without any user input.
+-> The secret number is picked from a certain range.
+-> The range is outputted to the player.
+-> The player has a certain number of guesses that is calculated like this log2(range)
+-> The number of guesses is outputted to the player.
+-> The player enters his guess.
+-> If the guess was to high then the output will be "Your guess was too high"
+   and the number of guesses left will be decreased by one.
+-> If the guess was too low then the output will be "Your guess was too low" and the number of
+   guesses left will be decreased by one.
+-> The game ends with the info on secret number regardless of if the player guessed.
+-> The player can choose to play one more time or to exit the game.
+
+
+
+Pseudo-Code
+
+main function ( )
+
+    1. we need a variable that stores the secret number
+    2. we need to set the range ex. range 0 - 100
+    3. the range should be outputted to the player
+    4. we need a variable that stores the number of guesses the player has left
+    5. we need a variable that will store the players guess
+    6.
